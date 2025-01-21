@@ -50,3 +50,18 @@ const progmmingLanguage = ["JavaScript", "Java", "Python"];
 const lanRsult= progmmingLanguage.includes("Java");
 
 console.log(lanRsult)
+
+// 6. Javascript Array join()
+// The join() method returns a new string by concatenating all of the elements in an array, separated by a specified separator.
+
+let message = ["JavaScript", "is", "fun."];
+
+const msgRes= message.join(" ");
+
+console.log(msgRes)
+
+// 7. JavaScript Array reverse()
+// The reverse() method returns the array in reverse order.
+let numbers = [1, 2, 3, 4, 5];
+
+console.log(numbers.reverse());
