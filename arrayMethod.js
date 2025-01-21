@@ -45,3 +45,8 @@ console.log(checkAdults(ageArray))
 // 5. JavaScript Array includes()
 // The includes() method checks if an array contains a specified element or not.
 
+const progmmingLanguage = ["JavaScript", "Java", "Python"];
+
+const lanRsult= progmmingLanguage.includes("Java");
+
+console.log(lanRsult)
