@@ -22,9 +22,9 @@ console.log(sumArray(array))
 
 //  even number array print
 
-const evenOddNumbers=[1,2,4,5,6,,7,8]
+const evenOddNumbers=[1,2,4,5,6,9,7,8]
 function evenNumber(arr){
-    return arr.reduce((acc, currentVal)=>{
+    return arr. reduce((acc, currentVal)=>{
         if(currentVal % 2===0) {
             acc.push(currentVal)
         }
@@ -34,3 +34,6 @@ function evenNumber(arr){
 }
 
 console.log(evenNumber(evenOddNumbers))
+
+
+
