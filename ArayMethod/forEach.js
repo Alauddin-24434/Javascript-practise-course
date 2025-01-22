@@ -18,31 +18,44 @@ console.log(sumAllNumebr(numbers));
 
 const evenOddNumbers = [1, 2, 4, 5, 6, 7, 8];
 
-
 function evenOddCount(arr) {
-  let even =0;
+  let even = 0;
   let odd = 0;
 
   arr.forEach((elem) => {
     if (elem % 2 === 0) {
-      even +=1;
+      even += 1;
     } else {
       odd += 1;
     }
-
-
-
   });
 
   console.log(`${even} number even of ths array`);
-  console.log(`${odd} number odd of this array`)
-
+  console.log(`${odd} number odd of this array`);
 }
 
+evenOddCount(evenOddNumbers);
 
-evenOddCount(evenOddNumbers)
+// Task 3: Find Maximum and Minimum
+// Write a function to find the maximum and minimum numbers in an array using forEach.
 
+const maxMinNumbers = [1, 2, 4, 5, 6, 9, 7, 8];
 
+function maxMinNum(arr) {
+  let max = -Infinity;
+  let min = Infinity;
+  arr.forEach((ele) => {
+    if (ele > max) {
+      max = ele;
+    } if(ele < min) {
+     min=ele;
+    }
+  });
 
+  console.log(`Maximum number is ${max}`);
+  console.log(`Minmum number is ${min}`);
+}
+
+maxMinNum(maxMinNumbers);
 
 
