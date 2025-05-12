@@ -1,4 +1,7 @@
-function sumTowNum(a,b){
+// sum two num  of two numbers
+
+function sumOfTwoNumbers(a,b){
   return a+b;
 }
-console.log(sumTowNum(2,6))
+
+console.log(sumOfTwoNumbers(2,4))
